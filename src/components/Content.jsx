@@ -1,22 +1,23 @@
 import React from 'react'
-
+import Menu from '../assets/MenuImg.svg';
+import MenuComponent from '../components/MenuComponent';
 function Content() {
   return (
-    <div className='py-35'>
+    <div className='py-20'>
          <section id="pos">
         <section class="text-gray-600 body-font">
           <div class="container mx-auto flex px-5 py-0 md:flex-row flex-col items-center">
             <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-              <h1 class="title-font sm:text-6xl text-5xl mb-4 font-medium text-gray-900">
+              <h1 class="title-font sm:text-6xl text-5xl mb-4 font-medium text-red-700">
                 Restaurant POS Software
               </h1>
-              <p class="mb-8 leading-relaxed text-1xl">A restaurant POS (Point of Sale) system is a comprehensive software solution designed to manage and streamline restaurant operations, including order management, billing, inventory tracking, customer engagement, and staff coordination. </p>
+              <p class="mb-8 leading-relaxed text-1xl">A restaurant POS (Point of Sale) system is a comprehensive software solution designed to manage and streamline restaurant operations, including order management, billing, inventory tracking, customer engagement, and staff coordination. Modern POS systems also integrate with third-party delivery platforms, offer real-time sales analytics, and support multiple payment methods, including contactless and digital wallet transactions. </p>
               <div className="App">
     
     </div>
             </div>
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-             
+             <img src={Menu}/>
             </div>
           </div>
         </section>
@@ -35,14 +36,13 @@ function Content() {
     <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
       <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
         <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-          <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#e63946">
-            <path d="M3 3h18v4H3V3z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M3 7h18v4H3V7z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M3 11h18v10H3V11z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M7 15h6M7 19h4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
 
-
+        <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#e63946">
+                    <path d="M3 3h18v4H3V3z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M3 7h18v4H3V7z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M3 11h18v10H3V11z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M7 15h6M7 19h4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
         </div>
         <div class="flex-grow">
           <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Order Management & Billing</h2>
@@ -221,7 +221,7 @@ function Content() {
           </div>
         </div>
       </div>
-      
+      <MenuComponent/>
     </div>
   </div>
 </section>

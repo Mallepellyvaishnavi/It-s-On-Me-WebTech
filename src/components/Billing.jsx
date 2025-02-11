@@ -5,6 +5,7 @@ import Billing3 from '../assets/svg/Billing3.svg';
 import Billing4 from '../assets/svg/Billing4.svg';
 import Billing5 from '../assets/svg/Billing5.svg';
 import Billing6 from '../assets/svg/Billing6.svg';
+import Billing1 from '../assets/Billing.svg';
 function Billing() {
   return (
     <div className='my-20'>
@@ -38,12 +39,16 @@ function Billing() {
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img className="object-cover object-center rounded" alt="hero" src="./src/assets/Billing.svg" />
+            <img className="object-cover object-center rounded" alt="hero" src={Billing1} />
           </div>
         </div>
       </section>
       <section className="text-gray-600  body-font">
-        <div className="container px-2 py-5 mx-auto flex flex-wrap">
+      <h1 className="title-font sm:text-4xl text-6xl font-medium text-red-700 text-center ">
+      Effortless Billing with PowerFul Features
+              </h1>
+        
+        <div className="container px-2 py-1 mx-auto flex flex-wrap">
           <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
             <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
 

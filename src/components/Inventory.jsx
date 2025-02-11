@@ -5,11 +5,12 @@ import Inventory3 from '../assets/Inventory/Inventory3.svg';
 import Inventory4 from '../assets/Inventory/Inventory4.svg';
 import Inventory5 from '../assets/Inventory/Inventory5.svg';
 import Inventory6 from '../assets/Inventory/Inventory6.svg';
+import InventoryImg from '../assets/svg/Inventory.svg';
 function Inventory(){
     return( 
 <div className='my-20'>
 <section className="text-gray-600 body-font">
-      <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div className="container mx-auto flex px-2 py-3 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <div className="flex justify-end flex-col items-end">
               <h1 className="title-font sm:text-4xl text-6xl font-medium text-red-700">
@@ -32,12 +33,15 @@ function Inventory(){
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-2/4 w-9/9">
-          <img className="object-cover object-center rounded" alt="hero" src="./src/assets/svg/Inventory.svg" height={49} width={400} />
+          <img className="object-cover object-center rounded" alt="hero" src={InventoryImg}  />
         </div>
       </div>
     </section>
        <section className="text-gray-600 body-font">
-         <div className="container px-2 py-24 mx-auto flex flex-wrap">
+       <h1 className="title-font sm:text-4xl text-6xl font-medium text-red-700 text-center ">
+      Key Features Of Inventory Tracking
+              </h1>
+         <div className="container px-2 py-2 mx-auto flex flex-wrap">
            <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
              <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
          

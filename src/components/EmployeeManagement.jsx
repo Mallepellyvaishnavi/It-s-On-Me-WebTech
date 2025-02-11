@@ -40,7 +40,11 @@ function EmployeeManagement() {
         </div>
       </section>
       <section className="text-gray-600 body-font">
-        <div className="container px-2 py-5 mx-auto flex flex-wrap">
+      <h1 className="title-font sm:text-4xl text-6xl font-medium text-red-700 text-center ">
+      Key Features 
+              </h1>
+
+        <div className="container px-2 py-2 mx-auto flex flex-wrap">
           <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
             <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
 
