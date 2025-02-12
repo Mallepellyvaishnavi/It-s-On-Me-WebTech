@@ -8,13 +8,13 @@ import Zomato from '../assets/Integration/Zomato.svg';
 import Swiggy from '../assets/Integration/Swiggy.svg';
 import DoorDash from '../assets/Integration/DoorDash.svg';
 import zoho from '../assets/Integration/Zoho.svg';
-import UniCommerce from '../assets/Integration/Unicommerce.svg';
+import UniCommerce from '../assets/Integration/UniCommerce.svg';
 import TallyPrime from '../assets/Integration/TallyPrime.svg';
 import Mark from '../assets/Integration/Mark.svg';
 import LeadSquade from '../assets/Integration/LeaderSquared.svg';
 import WhatdsApp from '../assets/Integration/WhatsApp.svg';
 import Lark from '../assets/Integration/Lark.svg';
-import Zapier from '../assets/Integration/Lark.svg';
+import Zapier from '../assets/Integration/Zapier.svg';
 import Google from '../assets/Integration/Google.svg';
 
 function Integration() {
