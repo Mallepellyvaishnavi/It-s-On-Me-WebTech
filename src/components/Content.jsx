@@ -3,7 +3,7 @@ import Menu from '../assets/MenuImg.svg';
 import MenuComponent from '../components/MenuComponent';
 function Content() {
   return (
-    <div className='my-20'>
+    <div className='my-50 lg:my-20 md:my-20'>
          <section id="pos">
         <section class="text-gray-600 body-font">
           <div class="container mx-auto flex px-5 py-0 md:flex-row flex-col items-center">

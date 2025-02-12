@@ -74,14 +74,14 @@ function Navbar() {
                   </li>
 
                   <li className="block px-4 py-2 text-gray-700 hover:bg-gray-100 cursor-pointer flex items-center"
-                    onClick={() => { setIsDropdownOpen(false); navigate('/crm'); }}>
+                    onClick={() => { setIsDropdownOpen(false); navigate('/reporting'); }}>
                     <img src={ReportingLogo} width={20} height={20} className="mr-2" />
                     <span>Reporting</span>
                   </li>
 
 
                   <li className="block px-4 py-2 text-gray-700 hover:bg-gray-100 cursor-pointer flex items-center"
-                    onClick={() => { setIsDropdownOpen(false); navigate('/online-ordering'); }}>
+                    onClick={() => { setIsDropdownOpen(false); navigate('/employee-management'); }}>
                     <img src={EmpLogo} width={20} height={20} className="mr-2 order-first" />
                     <span>Employee Management</span>
                   </li>
@@ -107,6 +107,14 @@ function Navbar() {
     onClick={() => navigate('/integration')}
   >
     Integration
+  </span>
+  <span 
+    className="relative cursor-pointer text-black-700 hover:text-black-900 transition duration-300 
+               before:absolute before:left-0 before:-bottom-1 before:w-0 before:h-1 before:bg-red-700 
+               before:transition-all before:duration-300 hover:before:w-full"
+    onClick={() => navigate('/contact-us')}
+  >
+    Contact-Us
   </span>
         </nav>
 

@@ -8,7 +8,7 @@ import Billing6 from '../assets/svg/Billing6.svg';
 import Billing1 from '../assets/Billing.svg';
 function Billing() {
   return (
-    <div className='my-20'>
+    <div className='my-20 lg:my-10 md:my-10'>
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-center md:text-left mb-16 md:mb-0 flex-end items-center text-center">
@@ -44,9 +44,9 @@ function Billing() {
         </div>
       </section>
       <section className="text-gray-600  body-font">
-      <h1 className="title-font sm:text-4xl text-6xl font-medium text-red-700 text-center ">
-      Effortless Billing with PowerFul Features
-              </h1>
+        <h1 className="title-font sm:text-4xl text-6xl font-medium text-red-700 text-center ">
+        Effortless Billing with PowerFul Features
+                </h1>
         
         <div className="container px-2 py-1 mx-auto flex flex-wrap">
           <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">

@@ -8,6 +8,9 @@ import OnlineOrdering from './components/OnlineOrdering'
 import Crm from './components/Crm'
 import Reporting from './components/Reporting'
 import EmployeeManagement from './components/EmployeeManagement'
+import Pricingpage from './components/Pricing'
+import Integration from './components/Integration'
+import Contactus from './components/ContcatUs'
 function App() {
   return (
     <div>
@@ -21,6 +24,9 @@ function App() {
   <Route path="/crm" element={<Crm/>}/>
   <Route path="reporting" element={<Reporting/>}/>
   <Route path="employee-management" element={<EmployeeManagement/>}/>
+  <Route path="pricing" element={<Pricingpage/>}/>
+  <Route path="integration" element={<Integration/>}/>
+ <Route path="contact-us" element={<Contactus/>}/>
       </Routes>
     
     </div>
