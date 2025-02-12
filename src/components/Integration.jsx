@@ -2,7 +2,7 @@ import React from "react";
 import IntegrationImg from '../assets/IntegrationImg.svg';
 import StripeImg from '../assets/Integration/Stripe.svg';
 import Square from '../assets/Integration/Square.svg';
-import Razorpay from '../assets/Integration/Razorpay.svg';
+import Razorpay from '../assets/Integration/RazorPay.svg';
 import uber from '../assets/Integration/Uber.svg';
 import Zomato from '../assets/Integration/Zomato.svg';
 import Swiggy from '../assets/Integration/Swiggy.svg';
