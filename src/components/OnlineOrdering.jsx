@@ -28,12 +28,7 @@ function OnlineOrdering(){
         — all synced with your POS in real-time." 
           </p>
           </div>
-          <div className="flex justify-center">
-          <button className="inline-flex text-white bg-red-700 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">
-              Request  a Demo
-            </button>
-
-          </div>
+          
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img className="object-cover object-center rounded" alt="hero" src={OnlineorderingImg}  width={400}/>
@@ -134,7 +129,11 @@ function OnlineOrdering(){
           </div>
         </div>
       
-
+        <div className="w-full text-center mt-0 mb-25">
+      <h1 className="text-red-700 text-2xl font-medium">
+      "Stay ahead in the restaurant business with our seamless online ordering system."
+      </h1>
+    </div>
       </div>
      
     </section>

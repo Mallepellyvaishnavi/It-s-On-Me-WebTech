@@ -25,12 +25,7 @@ function Pricing(){
         <li>Scalable solutions for all restaurant types</li>
       </ul>
                         </div>
-                        <div className="flex justify-center">
-                          <button className="inline-flex text-white bg-red-700 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">
-                            Request a Demo
-                          </button>
-            
-                        </div>
+
                       </div>
                       <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                         <img className="object-cover object-center rounded" alt="hero" src={PricingImg} />
@@ -38,7 +33,7 @@ function Pricing(){
                     </div>
                   </section>
                   <section class="p-4">
-                  <h1 className="title-font sm:text-4xl text-6xl font-medium text-red-700 text-center ">
+                  <h1 className="title-font sm:text-4xl text-6xl font-medium text-red-700 text-center mb-10 ">
       Pricing Plans
               </h1>
        
@@ -54,30 +49,30 @@ function Pricing(){
             </thead>
             <tbody>
                 <tr class="border-b border-gray-300">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 border-r border-gray-300">Best for  small cakes &Food Trucks</th>
+                    <th scope="row" class="px-6 py-4 font-normal text-gray-900 border-r border-gray-300">Best for  small cakes &Food Trucks</th>
                     <td class="px-6 py-4 border-r border-gray-300">Perfect for Restuarant &chains</td>
                     <td class="px-6 py-4">Full control &cutomization
                     </td>
                 </tr>
                 <tr class="border-b border-gray-300">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 border-r border-gray-300">Affordable pricing</th>
+                    <th scope="row" class="px-6 py-4 font-normal text-gray-900 border-r border-gray-300">Affordable pricing</th>
                     <td class="px-6 py-4 border-r border-gray-300">Advanced pricing </td>
                     <td class="px-6 py-4">custom integrations</td>
                 </tr>
                 <tr class="border-b border-gray-300">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 border-r border-gray-300">Upto 2 users</th>
+                    <th scope="row" class="px-6 py-4 font-normal text-gray-900 border-r border-gray-300">Upto 2 users</th>
                     <td class="px-6 py-4 border-r border-gray-300">Inventory Tracking</td>
                     <td class="px-6 py-4">AI-Powered Analytics</td>
                 </tr>
                 <tr class="border-b border-gray-300">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 border-r border-gray-300">Basic POS features</th>
+                    <th scope="row" class="px-6 py-4 font-normal text-gray-900 border-r border-gray-300">Basic POS features</th>
                     <td class="px-6 py-4 border-r border-gray-300">Multiple payment options</td>
                     <td class="px-6 py-4">Priority Support</td>
                 </tr>
                 <tr class="border-b border-gray-300">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 border-r border-gray-300">Choose Starter Plan</th>
-                    <td class="px-6 py-4 border-r border-gray-300">Choose Business Plan </td>
-                    <td class="px-6 py-4">Choose Enterprise Plan</td>
+                    <th scope="row" class="px-6 py-4 font-bold border-r font-bold text-red-700 border-gray-300">Choose Starter Plan</th>
+                    <td class="px-6 py-4 border-r font-bold text-red-700 border-gray-300">Choose Business Plan </td>
+                    <td class="px-6 py-4 font-bold text-red-700">Choose Enterprise Plan</td>
                 </tr>
             </tbody>
         </table>
@@ -87,7 +82,7 @@ function Pricing(){
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-0">
 
-      <h1 class="sm:text-3xl text-2xl font-medium title-font text-red-700 mb-0">Additional Benefits</h1>
+      <h1 class="sm:text-3xl text-2xl font-normal  title-font text-red-700 mb-0">Additional Benefits</h1>
     </div>
     <div class="flex flex-wrap -m-4">
       <div class="p-20 md:w-1/3">
@@ -126,6 +121,11 @@ function Pricing(){
           </div>
         </div>
       </div>
+    </div>
+    <div className="w-full text-center mt-0">
+      <h1 className="text-red-700 text-2xl font-medium">
+      Need a personalized plan?
+      </h1>
     </div>
   </div>
 </section>

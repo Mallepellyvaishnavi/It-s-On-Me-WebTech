@@ -31,12 +31,7 @@ function Billing() {
               payments,taxes, and invoices in one simple solution."
             </p>
             </div>
-            <div className="flex justify-center">
-              <button className="inline-flex text-white bg-red-700 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">
-                Request a Demo
-              </button>
-
-            </div>
+            
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img className="object-cover object-center rounded" alt="hero" src={Billing1} />
@@ -139,13 +134,18 @@ function Billing() {
                 <p className="leading-relaxed">Process refunds and order cancellations effortlessly, ensuring customer satisfaction and smooth operations..</p>
               </div>
             </div>
+
           </div>
 
-
-
+          <div className="w-full text-center mt-0">
+      <h1 className="text-red-700 text-2xl font-medium">
+        "Upgrade Your Restaurant with Smart POS Billing!"
+      </h1>
+    </div>
         </div>
 
       </section>
+     
 
     </div>
 

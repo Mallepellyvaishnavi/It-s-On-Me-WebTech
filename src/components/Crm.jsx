@@ -28,12 +28,7 @@ function Crm(){
           "Understand your customers, enhance engagement, and <br/> drive repeat business with our powerful CRM tools. <br/>Manage customer data, track preferences, and create <br/>personalized experiences—all in one place."
           </p>
           </div>
-          <div className="flex justify-center">
-            <button className="inline-flex text-white bg-red-700 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">
-              Request  a Demo
-            </button>
-           
-          </div>
+
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img className="object-cover object-center rounded" alt="hero" src={CrmImg} />
@@ -135,7 +130,11 @@ function Crm(){
              </div>
            </div>
          
-   
+           <div className="w-full text-center mt-0">
+      <h1 className="text-red-700 text-2xl font-medium">
+      Boost Customer Engagement with Our POS CRM!
+      </h1>
+    </div>
          </div>
         
        </section>

@@ -25,12 +25,7 @@ function Inventory(){
           "Monitor stock levels, reduce wastage, and streamline purchases with our smart inventory management system.".
           </p>
           </div>
-          <div className="flex justify-center">
-          <button className="inline-flex text-white bg-red-700 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">
-              Request  a Demo
-            </button>
-            
-          </div>
+          
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-2/4 w-9/9">
           <img className="object-cover object-center rounded" alt="hero" src={InventoryImg}  />
@@ -133,9 +128,11 @@ function Inventory(){
                </div>
              </div>
            </div>
-   
-   
-   
+           <div className="w-full text-center mt-0">
+      <h1 className="text-red-700 text-2xl font-medium">
+      "Take Control of Your Inventory Today"
+      </h1>
+    </div>
          </div>
         
        </section>

@@ -21,7 +21,7 @@ function Integration() {
   return (
     <div className="my-20">
       <section className="text-gray-600 body-font">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex px-5  md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-center md:text-left mb-16 md:mb-0 flex-end items-center text-center">
             <div className="flex justify-end flex-col items-end">
               <h1 className="title-font sm:text-4xl text-6xl font-medium text-red-700 mb-6">
@@ -40,12 +40,7 @@ function Integration() {
                 <li>Boost productivity with automation</li>
               </ul>
             </div>
-            <div className="flex justify-center">
-              <button className="inline-flex text-white bg-red-700 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">
-                Request a Demo
-              </button>
 
-            </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/9">
             <img className="object-cover object-center rounded" alt="hero" src={IntegrationImg} width={500} />
@@ -191,8 +186,17 @@ function Integration() {
               <p> Use enterprise-level tools to grow
                 your business</p>
             </div>
+            
           </div>
+          
+          <div className="w-full text-center mt-0">
+      <h1 className="text-red-700 text-2xl font-medium">
+      Need a custom integration?  
+      </h1>
+    </div>  
+  
         </div>
+        
       </section>
 
 

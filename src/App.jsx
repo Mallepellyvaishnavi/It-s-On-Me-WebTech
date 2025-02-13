@@ -11,6 +11,7 @@ import EmployeeManagement from './components/EmployeeManagement'
 import Pricingpage from './components/Pricing'
 import Integration from './components/Integration'
 import Contactus from './components/ContcatUs'
+import Demo from './components/Demo'
 function App() {
   return (
     <div>
@@ -27,6 +28,7 @@ function App() {
   <Route path="pricing" element={<Pricingpage/>}/>
   <Route path="integration" element={<Integration/>}/>
  <Route path="contact-us" element={<Contactus/>}/>
+ <Route path="demo" element={<Demo/>}/>
       </Routes>
     
     </div>

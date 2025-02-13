@@ -119,9 +119,11 @@ function Navbar() {
         </nav>
 
         {/* Request Button */}
-        <div className="ml-4">
-          <button className="inline-flex text-white bg-red-700 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg" onClick={() => navigate('/contact-us')}>
-             Request A Demo
+        <div className="ml-4 mt-4">
+          <button 
+            className="inline-flex text-white bg-red-700 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg" 
+            onClick={() => navigate('/demo')}>
+            Request A Demo
           </button>
         </div>
       </div>
