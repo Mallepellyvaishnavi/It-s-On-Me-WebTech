@@ -102,40 +102,39 @@ function Demo() {
       </h1>
     </div>
 
-    {/* Content Wrapper */}
+   
     <div className="flex flex-col md:flex-row items-right md:items-start">
-      
-      {/* Left Section (Text Content) */}
-      <div className="lg:w-1/2 w-full flex flex-col items-start text-left mt-20 ml-50">
-        <ul className="list-disc list-inside space-y-3 text-gray-700">
-        <li className="flex items-center">
-            <img src={DemoIcon} alt="Support" className="w-6 h-6 mr-3" />
-            Fast & Easy Billing
-          </li>
+    <div className="lg:w-1/2 w-full flex flex-col items-center mt-10 md:mt-20 mx-auto">
+  <ol className="list-decimal list-outside space-y-3 px-20 text-gray-700 text-start w-full">
+    <li className="flex items-center gap-2">
+      <img src={DemoIcon} alt="Support" className="w-6 h-6 ml-2" />
+      <span>Fast & Easy Billing</span>
+    </li>
+    <li className="flex items-center gap-2">
+      <img src={DemoIcon} alt="Support" className="w-6 h-6 ml-2" />
+      <span>Real-Time Inventory Management</span>
+    </li>
+    <li className="flex items-center gap-2">
+      <img src={DemoIcon} alt="Support" className="w-6 h-6 ml-2" />
+      <span>Seamless Online Ordering</span>
+    </li>
+    <li className="flex items-center gap-2">
+      <img src={DemoIcon} alt="Support" className="w-6 h-6 ml-2" />
+      <span>Insightful Reports</span>
+    </li>
+    <li className="flex items-center gap-2">
+      <img src={DemoIcon} alt="Support" className="w-6 h-6 ml-2" />
+      <span>Multi-Payment Support</span>
+    </li>
+    <li className="flex items-center gap-2">
+      <img src={DemoIcon} alt="Support" className="w-6 h-6 ml-2" />
+      <span>CRM & Loyalty Programs</span>
+    </li>
+  </ol>
+</div>
 
-          <li className="flex items-center">
-            <img src={DemoIcon} alt="Support" className="w-6 h-6 mr-3" />
-            Real-Time Inventory Management
-          </li>
-          <li className="flex items-center">
-            <img src={DemoIcon} alt="Support" className="w-6 h-6 mr-3" />
-            Seamless Online Ordering
-          </li>
-          <li className="flex items-center">
-            <img src={DemoIcon} alt="Support" className="w-6 h-6 mr-3" />
-            Insightful Reports
-          </li>
-          <li className="flex items-center">
-            <img src={DemoIcon} alt="Support" className="w-6 h-6 mr-3" />
-            Multi-Payment Support
-          </li>
-          <li className="flex items-center">
-            <img src={DemoIcon} alt="Support" className="w-6 h-6 mr-3" />
-            CRM & Loyalty Programs
-          </li>
 
-        </ul>
-      </div>
+
 
       {/* Right Section (Image) */}
       <div className="lg:w-1/2 w-full flex justify-center mt-6 md:mt-0">
