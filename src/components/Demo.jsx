@@ -93,147 +93,161 @@ function Demo() {
         </div>
       </section>
       <section className="text-gray-600 body-font relative">
-  <div className="container mx-auto px-5 py-10">
-    
-    {/* Centered Header at the Top */}
-    <div className="flex flex-col text-center w-full mb-6">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font text-red-700">
-        Get In Touch
-      </h1>
-    </div>
+        <div className="container mx-auto px-5 py-10">
 
-   
-    <div className="flex flex-col md:flex-row items-right md:items-start">
-    <div className="lg:w-1/2 w-full flex flex-col items-center mt-10 md:mt-20 mx-auto">
-  <ol className="list-decimal list-outside space-y-3 px-20 text-gray-700 text-start w-full">
-    <li className="flex items-center gap-2">
-      <img src={DemoIcon} alt="Support" className="w-6 h-6 ml-2" />
-      <span>Fast & Easy Billing</span>
-    </li>
-    <li className="flex items-center gap-2">
-      <img src={DemoIcon} alt="Support" className="w-6 h-6 ml-2" />
-      <span>Real-Time Inventory Management</span>
-    </li>
-    <li className="flex items-center gap-2">
-      <img src={DemoIcon} alt="Support" className="w-6 h-6 ml-2" />
-      <span>Seamless Online Ordering</span>
-    </li>
-    <li className="flex items-center gap-2">
-      <img src={DemoIcon} alt="Support" className="w-6 h-6 ml-2" />
-      <span>Insightful Reports</span>
-    </li>
-    <li className="flex items-center gap-2">
-      <img src={DemoIcon} alt="Support" className="w-6 h-6 ml-2" />
-      <span>Multi-Payment Support</span>
-    </li>
-    <li className="flex items-center gap-2">
-      <img src={DemoIcon} alt="Support" className="w-6 h-6 ml-2" />
-      <span>CRM & Loyalty Programs</span>
-    </li>
-  </ol>
-</div>
-
-
-
-
-      {/* Right Section (Image) */}
-      <div className="lg:w-1/2 w-full flex justify-center mt-6 md:mt-0">
-        <img className="object-cover object-center rounded" alt="contact" src={RequestImg} />
-      </div>
-
-    </div>
-
-  </div>
-</section>
-
-<section className="text-gray-600 body-font">
-  <div className="container mx-auto px-5 py-12">
-    
-    
-    <div className="text-center mb-10">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font text-red-700">
-      What our clients say about us.
-      </h1>
-    </div>
-
-    
-    <div className="flex flex-wrap -m-4 justify-center">
-      
-
-      <div className="p-4 md:w-1/3 w-full">
-        <div className="border border-black p-6 rounded-lg shadow-md">
-          <div className="flex items-center mb-4">
-            <img 
-              src={CustomerImg} 
-              alt="Customer" 
-              className="w-12 h-12 rounded-full object-cover"
-            />
-            <div className="ml-4">
-              <h2 className="text-lg font-medium text-gray-900">James Pattinson</h2>
-              <div className="flex text-yellow-500 mt-1">★★★★★</div>
-            </div>
+          {/* Centered Header at the Top */}
+          <div className="flex flex-col text-center w-full mb-6">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font text-red-700">
+              Get In Touch
+            </h1>
           </div>
-          <h3 className="font-bold">"Game-Changer for Our Restaurant!"</h3>
-          <p className="text-gray-700">
-          "Since switching to this POS system, our 
-order processing time has reduced by 50%! 
-Managing billing, inventory, and online
-orders has never been easier."
-          </p>
-        </div>
-      </div>
 
-      {/* Review 2 */}
-      <div className="p-4 md:w-1/3 w-full">
-        <div className="border border-black p-6 rounded-lg shadow-md">
-          <div className="flex items-center mb-4">
-            <img 
-              src={CustomerImg}
-              alt="Customer" 
-              className="w-12 h-12 rounded-full object-cover"
-            />
-            <div className="ml-4">
-              <h2 className="text-lg font-medium text-gray-900">Priya Sharma</h2>
-              <div className="flex text-yellow-500 mt-1">★★★★☆</div>
+
+          <div className="flex flex-col md:flex-row items-right md:items-start">
+            <div className="lg:w-1/2 w-full flex flex-col items-center mt-10 md:mt-20 mx-auto">
+              <ol className="list-decimal list-outside space-y-3 px-20 text-gray-700 text-start w-full">
+                <li className="flex items-center gap-2">
+                  <img src={DemoIcon} alt="Support" className="w-6 h-6 ml-2" />
+                  <span>Fast & Easy Billing</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <img src={DemoIcon} alt="Support" className="w-6 h-6 ml-2" />
+                  <span>Real-Time Inventory Management</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <img src={DemoIcon} alt="Support" className="w-6 h-6 ml-2" />
+                  <span>Seamless Online Ordering</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <img src={DemoIcon} alt="Support" className="w-6 h-6 ml-2" />
+                  <span>Insightful Reports</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <img src={DemoIcon} alt="Support" className="w-6 h-6 ml-2" />
+                  <span>Multi-Payment Support</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <img src={DemoIcon} alt="Support" className="w-6 h-6 ml-2" />
+                  <span>CRM & Loyalty Programs</span>
+                </li>
+              </ol>
             </div>
-          </div>
-          <h3 className="font-bold">"Game-Changer for Our Restaurant!"</h3>
-          <p className="text-gray-700">
-          "I love how it integrates with Zomato and 
-Swiggy. Our restaurant operations have 
-become so much smoother, and we’ve
-increased revenue by 20%!"
-          </p>
-        </div>
-      </div>
 
-      {/* Review 3 */}
-      <div className="p-4 md:w-1/3 w-full">
-        <div className="border border-black p-6 rounded-lg shadow-md">
-          <div className="flex items-center mb-4">
-            <img 
-              src={CustomerImg}
-              alt="Customer" 
-              className="w-12 h-12 rounded-full object-cover"
-            />
-            <div className="ml-4">
-              <h2 className="text-lg font-medium text-gray-900">Vikram Singh</h2>
-              <div className="flex text-yellow-500 mt-1">★★★★★</div>
+
+
+
+            {/* Right Section (Image) */}
+            <div className="lg:w-1/2 w-full flex justify-center mt-6 md:mt-0">
+              <img className="object-cover object-center rounded" alt="contact" src={RequestImg} />
             </div>
-          </div>
-          <h3 className="font-bold">"Game-Changer for Our Restaurant!"</h3>
-          <p className="text-gray-700">
-         "Handling multiple branches used to be a 
-nightmare. Now, with real-time sales 
-tracking and easy billing, I can manage 
-everything from one place!" 
-          </p>
-        </div>
-      </div>
 
+          </div>
+
+        </div>
+      </section>
+
+      <section className="text-gray-600 body-font">
+        <div className="container mx-auto px-5 py-12">
+
+
+          <div className="text-center mb-10">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font text-red-700">
+              What our clients say about us.
+            </h1>
+          </div>
+
+
+          <div className="flex flex-wrap -m-4 justify-center">
+
+
+            <div className="p-4 md:w-1/3 w-full">
+              <div className="border border-black p-6 rounded-lg shadow-md">
+                <div className="flex items-center mb-4">
+                  <img
+                    src={CustomerImg}
+                    alt="Customer"
+                    className="w-12 h-12 rounded-full object-cover"
+                  />
+                  <div className="ml-4">
+                    <h2 className="text-lg font-medium text-gray-900">James Pattinson</h2>
+                    <div className="flex text-yellow-500 mt-1">★★★★★</div>
+                  </div>
+                </div>
+                <h3 className="font-bold">"Game-Changer for Our Restaurant!"</h3>
+                <p className="text-gray-700">
+                  "Since switching to this POS system, our
+                  order processing time has reduced by 50%!
+                  Managing billing, inventory, and online
+                  orders has never been easier."
+                </p>
+                <div className="flex justify-between mt-4 text-gray-800 font-light text-red-700 font-medium">
+      <span>Owner Spice Delight</span>
+      <span>Mumbai,India</span>
     </div>
-  </div>
-</section>
+
+              </div>
+            </div>
+
+            {/* Review 2 */}
+            <div className="p-4 md:w-1/3 w-full">
+              <div className="border border-black p-6 rounded-lg shadow-md">
+                <div className="flex items-center mb-4">
+                  <img
+                    src={CustomerImg}
+                    alt="Customer"
+                    className="w-12 h-12 rounded-full object-cover"
+                  />
+                  <div className="ml-4">
+                    <h2 className="text-lg font-medium text-gray-900">James</h2>
+                    <div className="flex text-yellow-500 mt-1">★★★★☆</div>
+                  </div>
+                </div>
+                <h3 className="font-bold">"Game-Changer for Our Restaurant!"</h3>
+                <p className="text-gray-700">
+                  "I love how it integrates with Zomato and
+                  Swiggy. Our restaurant operations have
+                  become so much smoother, and we’ve
+                  increased revenue by 20%!"
+                </p>
+                <div className="flex justify-between mt-4 text-gray-800 font-light text-red-700 font-medium">
+      <span>Manager Food Club</span>
+      <span>Chennai,India</span>
+    </div>
+
+              </div>
+            </div>
+
+            {/* Review 3 */}
+            <div className="p-4 md:w-1/3 w-full">
+              <div className="border border-black p-6 rounded-lg shadow-md">
+                <div className="flex items-center mb-4">
+                  <img
+                    src={CustomerImg}
+                    alt="Customer"
+                    className="w-12 h-12 rounded-full object-cover"
+                  />
+                  <div className="ml-4">
+                    <h2 className="text-lg font-medium text-gray-900">James</h2>
+                    <div className="flex text-yellow-500 mt-1">★★★★★</div>
+                  </div>
+                </div>
+                <h3 className="font-bold">"Game-Changer for Our Restaurant!"</h3>
+                <p className="text-gray-700">
+                  "Handling multiple branches used to be a
+                  nightmare. Now, with real-time sales
+                  tracking and easy billing, I can manage
+                  everything from one place!"
+                </p>
+                <div className="flex justify-between mt-4 text-gray-800 font-light text-red-700 font-medium">
+      <span>Founder Urban Bites</span>
+      <span>Delhi,India</span>
+    </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
 
 
     </div>
