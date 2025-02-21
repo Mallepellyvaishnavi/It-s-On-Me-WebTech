@@ -1,6 +1,6 @@
 import React from "react";
 import DemoImg from '../assets/Demo.svg';
-import RequestImg from '../assets/DemoImg.svg';
+import RequestImg from '../assets/DemoImage.svg';
 import DemoIcon from '../assets/DemoIcon.svg';
 import CustomerImg from '../assets/Customer.svg';
 function Demo() {
